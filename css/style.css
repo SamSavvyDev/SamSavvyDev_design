@@ -1,0 +1,268 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#head{
+    background-color: #35424a;
+    color: #fff;
+    border-bottom: 3px solid #e8491d;
+    min-height: 20px;
+}
+
+#head .branding{
+    float: left;
+}
+
+#head .branding .logo{
+    color: #fff;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+#head nav{
+    float: right;
+    padding: 23px 20px 0 0; 
+}
+
+#head ul li{
+    list-style-type: none;
+    display: inline; 
+    padding: 10px 10px 10px 0;  
+}
+
+#head a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+#head a:hover{
+    color: #0585d4;
+}
+
+#head .current{
+    color: #e8491d;
+}
+
+/* Showcase */
+#showcase{
+    min-height: 450px;
+    background: url('../Images/showcase.webp') no-repeat;
+    color: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+#showcase h1{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+#showcase p{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* newsletter */
+#news{
+    background-color: #35424a;
+    color: #fff;
+    height: 70px;
+}
+
+#news h3{
+    float: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 5px;
+    letter-spacing: -0.4px;
+}
+
+#news form{
+    float: right;
+    margin-left: 450px;
+    margin-top: -20px;
+}
+
+#news form input[type="email"]{
+    padding: 6px;
+    width: 250px;
+}
+
+#news form input[type="email"]:focus{
+    border: none;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+}
+
+#news form input[type="submit"]{
+    padding: 6px 5px;
+    width: 80px;
+    background-color: #e8491d;
+    color: #f4f4f4f4;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+}
+
+#news form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #d0370d;
+}
+
+/* GROUP */
+#group{
+    margin-top: 10px;
+}
+
+#group .group-item{
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+
+#group .group-item img{
+    height: 150px;
+    width: 150px;
+    float: center;
+}
+
+#group .group-item p{
+    text-align: center;
+}
+
+.group-item h3{
+    padding-left: 60px;
+}
+
+.group-item p{
+    padding-right: 50px;
+}
+
+
+#about .abt{
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+
+#about .dark{
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+#about .nav{
+    float: right;
+    width: 30%;
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+/* SERVICES */
+#serve .serve_body{
+    float: left;
+    width: 60%;
+}
+
+#serve .serve_body .list_item{
+    background-color: #e6e6e6;
+    padding: 5px 15px 5px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#serve .price{
+    color: #000;
+    text-decoration: underline;
+    cursor: progress;
+    width: 160px;
+}
+
+#serve .sidebar{
+    float: right;
+    width: 30%;
+    background-color: #35424a;
+}
+
+#serve .sidebar form{
+    padding: 25px;
+}
+
+#serve .sidebar input{
+    padding: 10px;
+    width: 250px;
+    margin: 0px 0px 10px 0px;
+}
+
+input:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder{
+    opacity: 0;
+}
+
+input:focus::-ms-placeholder{
+    opacity: 0;
+}
+
+#serve .sidebar .btn{
+    background-color: #e8491d;
+    cursor: pointer;
+    border: none;
+    width: 275px;
+    color: #fff;
+}
+
+#serve .sidebar h3{
+    color: #fff;
+    padding: 20px;
+}
+
+#serve .sidebar input:focus{
+    border: 2px solid #e8491d;
+}
+
+/* FOOTER */
+#footer{
+    background-color: #e8491d;
+    margin-top: 10px;
+    padding: 3px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+#footer .sheph{
+    color: #06456d;
+    font-size: 18.5px;
+}
+
+#footer .sheph a{
+    text-decoration: none;
+}
